@@ -14,23 +14,19 @@ To write a Python program that accepts a string and removes the character at a s
 7. After the loop, return the modified string `a`.
 8. Print the final result.
 
-## 💻 Program
-Add Code Here
-```
-def palindrome(a):
-    x1=a[::-1]
-    if a==x1:
-       print("The entered string is palindrome")
-    else:
-        print("The entered string is not palindrome")
-  
-string =input()
-palindrome(string)
-```
+## 🧾 Program
 
+Add code here
+```
+n=int(input())
+def remove(a):
+    for i in range(0,len(a)):
+        if(i!=n):
+            print(a[i],end='')
+```
 ## Output
 
-<img width="777" height="127" alt="image" src="https://github.com/user-attachments/assets/9b932415-8c2f-4970-b335-b3dcbda2ce7d" />
+<img width="652" height="193" alt="image" src="https://github.com/user-attachments/assets/3bb8b980-d075-48eb-806b-4fe698f2f4f2" />
 
 
 ## Result
