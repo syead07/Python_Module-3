@@ -16,7 +16,23 @@ To write a Python program that accepts a string and removes the character at a s
 
 ## 💻 Program
 Add Code Here
+```
+def palindrome(a):
+    x1=a[::-1]
+    if a==x1:
+       print("The entered string is palindrome")
+    else:
+        print("The entered string is not palindrome")
+  
+string =input()
+palindrome(string)
+```
 
 ## Output
 
+<img width="777" height="127" alt="image" src="https://github.com/user-attachments/assets/9b932415-8c2f-4970-b335-b3dcbda2ce7d" />
+
+
 ## Result
+
+Thus the program executed successfully.
